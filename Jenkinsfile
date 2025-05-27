@@ -30,7 +30,6 @@ pipeline {
             steps {
                 // Start the JAR application
                 sh 'java -jar target/MavenJenkinsPipeline-1.0-SNAPSHOT.jar'
-'
             }
         }
 
